@@ -1,0 +1,26 @@
+// Input: board = [["X","X","X","X"],["X","O","O","X"],["X","X","O","X"],["X","O","X","X"]]
+// Output: [["X","X","X","X"],["X","X","X","X"],["X","X","X","X"],["X","O","X","X"]]
+
+b a 0
+b b 0
+b c 0
+b d 0
+
+b a 1
+w b 1
+w c 1
+b d 1
+
+b a 2
+b b 2
+w c 2
+b d 2
+
+b a 3
+w b 3
+b c 3
+b d 3
+
+groups
+eval
+groups
